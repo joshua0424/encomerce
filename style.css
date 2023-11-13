@@ -891,30 +891,30 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 
 .presentacion-text {
-  color: black;
+  max-width: 100%;
+  padding: 100px;
   font-size: 35px;
   font-weight: var(--weight-500);
   font-family: "Times New Roman";
   letter-spacing: 0.4px;
   margin: 0 auto;
-  padding: 70px;
   background-color: var(--salmon-pink);
   border-radius: 10px 20px 30px 40px;
 }
 
 .materiales {
+  max-width: 100%;
+  padding: 40px;
   font-family: "Times New Roman";
   line-height: 1.6;
-  max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
   background-color: pink;
   border-radius: 10px 20px 30px 40px;
-  
 }
 
 h1, h2 {
   color: #333;
+  font-size: 25px;
 }
 
 .parrafo{
@@ -922,6 +922,7 @@ h1, h2 {
   padding: 0;
   margin-bottom: 10px;
 }
+
 
 /*-----------------------------------*\
   #SIDEBAR
